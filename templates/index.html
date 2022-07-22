@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link's `href` needs changed to ./static/style.css for live flask server i think-->
+    <link rel="stylesheet" type="text/css" href="../static/style.css"/>
+    <title>Disciples of Jesus</title>
+</head>
+<body>
+    {% from "tab_template.html" import create_page %}
+    {{ create_page("Disciples of Jesus in Pittsburgh", "tab-home", txt) }}
+</body>
+</html>
