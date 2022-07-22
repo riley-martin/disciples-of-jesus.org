@@ -1,4 +1,6 @@
 # Resources
+**Some websites where you can find more information**
+
 
 [Followers of the Way: A Network of Kingdom Churches > Messages](https://www.followers-of-the-way.org/messages)
 
