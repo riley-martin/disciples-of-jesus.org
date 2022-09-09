@@ -42,7 +42,6 @@ p {
 }
 
 header {
-    padding-top: 8px;
     position: sticky;
     top: 0px;
     background-color: rgba(32, 32, 32, 0.2);
@@ -51,7 +50,7 @@ header {
 }
 
 .navbar {
-    /* margin-top: 6px; */
+    margin-top: 6px;
     height: 2rem;
     display: flex;
     flex-flow: row wrap;

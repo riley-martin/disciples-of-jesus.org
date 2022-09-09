@@ -42,7 +42,7 @@ p {
 }
 
 header {
-    padding-top: 8px;
+    padding-top: 6px;
     position: sticky;
     top: 0px;
     background-color: rgba(32, 32, 32, 0.2);
