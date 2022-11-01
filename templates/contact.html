@@ -8,11 +8,29 @@
     We are a community of disciples of Jesus in Pittsburgh, Pennsylvania, following Jesus with loving hearts
     and living out all His teachings in faithful obedience.
     '>
-    <link rel="stylesheet" type="text/css" href="../static/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
     <title>Get In Touch With Us</title>
 </head>
 <body>
-    {% from "tab_template.html" import create_page %}
-    {{ create_page("Contact Us", "tab-contact", txt) }}
+    <header>
+        <div class="navbar">
+            <div class="tab" id="tab-home">
+                <a class="nav-btn" href="/" class="tab-text">About Us</a>
+            </div>
+            <div class="tab" id="tab-about">
+                <a class="nav-btn" href="/about.html" class="tab-text">What We Believe</a>
+            </div>
+            <div class="tab tab-active" id="tab-contact">
+                <a class="nav-btn" href="/contact.html" class="tab-text">Contact</a>
+            </div>
+            <div class="tab" id="tab-av">
+                <a class="nav-btn" href="/av.html" class="tab-text">Resources</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        #include "../md/contact.html"
+    </main>
+    #include "footer.html"
 </body>
 </html>
