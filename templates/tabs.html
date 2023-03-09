@@ -3,7 +3,7 @@
 	{% set titles = ["About Us", "What We Believe", "Contact", "Resources"] %}
 	{% set ids = ["tab-about", "tab-beliefs", "tab-contact", "tab-av"] %}
 
-  <div class="navbar">
+  <!--<div class="navbar">-->
 
 		{% for route in routes %}
 			{% if ids[loop.index0] == active %}
@@ -17,5 +17,5 @@
 				</div>
 
 		{% endfor %}
-  </div>
+  <!--</div>-->
 {% endmacro %}
