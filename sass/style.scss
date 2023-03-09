@@ -89,12 +89,19 @@ nav {
   align-self: baseline;
 }
 
-.content {
-  background-color: whitesmoke;
+.content-container {
+  background-color: #cccccc;
   margin: 2px;
   border-style: hidden;
   border-width: 0px;
   margin-bottom: 0px;
+  display: flex;
+  justify-content: center
+}
+
+.content {
+  text-align: left;
+  width: 60%;
 }
 
 footer {
@@ -126,6 +133,12 @@ footer {
   margin: 4px;
 }
 
+@media (max-width: 800px) {
+  .content {
+    width: 80%;
+  }
+}
+
 @media (max-width: 500px) {
   .spacer {
     height: 80vh;
@@ -133,5 +146,9 @@ footer {
 
   nav {
     height: 4rem;
+  }
+
+  .content {
+    width: 100%;
   }
 }
