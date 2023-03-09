@@ -1,0 +1,21 @@
+{% macro tabs(active) %}
+	{% set routes = ["/", "/beliefs", "/contact", "/av"] %}
+	{% set titles = ["About Us", "What We Believe", "Contact", "Resources"] %}
+	{% set ids = ["tab-about", "tab-beliefs", "tab-contact", "tab-av"] %}
+
+  <div class="navbar">
+
+		{% for route in routes %}
+			{% if ids[loop.index0] == active %}
+				<div class="tab tab-active" id={{ ids[loop.index0] }}>
+			{% else %}
+				<div class="tab" id={{ ids[loop.index0] }}>
+			{% endif %}
+
+					<a class="nav-btn" href={{ routes[loop.index0] }}>{{ titles[loop.index0] }}</a>
+
+				</div>
+
+		{% endfor %}
+  </div>
+{% endmacro %}

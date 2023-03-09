@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% import "tabs.html" as tabs %}
+{% block nav %} {{ tabs::tabs(active="tab-about") }} {% endblock nav %}
+
+{% block header %} {{ section.title }} {% endblock header %}
+{% block content %} {{ section.content | safe }} {% endblock content %}
