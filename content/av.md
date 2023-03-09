@@ -1,3 +1,8 @@
++++
+template = "page.html"
+title = "Resources"
++++
+
 ## Resources
 **Some websites where you can find more information**
 

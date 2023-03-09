@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /*
-Sitemap: https://www.disciples-of-jesus.org/sitemap.xml
