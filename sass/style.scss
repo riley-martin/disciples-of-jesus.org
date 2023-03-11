@@ -28,6 +28,11 @@ h6 {
   margin-left: 10px;
 }
 
+.separator {
+  font-size: small;
+  margin: 4px;
+}
+
 .nav-btn {
   margin: 5px;
   color: grey;
@@ -112,12 +117,13 @@ footer {
   flex-shrink: 0;
   height: auto;
   font-size: 0.8em;
+  text-align: center;
 }
 
 .bottom {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0px 8px;
   /* width: 100%; */
 }
