@@ -14,6 +14,11 @@
 </head>
 
 <body>
+  <picture class="bg-img">
+    <source class="bg-img" srcset="/bg.avif" type="image/avif">
+    <source class="bg-img" srcset="/bg.webp" type="image/webp">
+    <img class="bg-img" src="/bg.jpg" alt="Pittsburgh at night">
+  </picture>
   <nav id="top">
   {% block nav %}{% endblock nav %}
   </nav>

@@ -10,8 +10,6 @@ body {
 body {
   color: black;
   font-size: 1em;
-  /* background-image: linear-gradient(0.25turn, #323647 0%, #cedaff 100%); */
-  background-image: url("/bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -26,6 +24,13 @@ h5,
 h6 {
   margin-top: 8px;
   margin-left: 10px;
+}
+.bg-img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
 }
 
 .separator {
