@@ -15,20 +15,15 @@
 </head>
 
 <body>
-  <picture class="bg-img">
+  <!--<picture class="bg-img">
     <source class="bg-img" srcset="/bg.avif" type="image/avif">
     <source class="bg-img" srcset="/bg.webp" type="image/webp">
     <img class="bg-img" src="/bg.jpg" alt="Pittsburgh at night">
-  </picture>
+  </picture>-->
   <nav id="top">
   {% block nav %}{% endblock nav %}
   </nav>
-  <div class="spacer">
-    <h1 class="page-title">
-      {% block header %}{% endblock header %}
-    </h1>
-    <!-- <div class="scroll"><a href="#content">Scroll</a></div> -->
-  </div>
+  {% block bgimg %}{% endblock bgimg%}
   <main>
     <div id="content-container" class="content-container">
       <div id="content" class="content">
@@ -42,11 +37,11 @@
         "You are the light of the world. A city that is set on a hill cannot be hidden …
         Let your light so shine before men,
         that they may see your good works and glorify your Father in heaven."
-        -Jesus of Nazareth
+        —  Jesus of Nazareth
       </p>
     </div>
     <div class="bottom">
-      <span class="copyright">Copyright © Disciples of Jesus, 2022</span>
+      <span class="copyright">Copyright © Disciples of Jesus, 2024</span>
       <span class="separator"> │ </span>
       <a href="#top" class="up">Return to top</a>
     </div>

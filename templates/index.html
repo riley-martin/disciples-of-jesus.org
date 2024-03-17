@@ -1,6 +1,17 @@
 {% extends "base.html" %}
 {% import "tabs.html" as tabs %}
-{% block nav %} {{ tabs::tabs(active="tab-about") }} {% endblock nav %}
+{% block nav %} {{ tabs::tabs(active="about") }} {% endblock nav %}
 
-{% block header %} {{ section.title }} {% endblock header %}
+{% block bgimg %}
+<picture class="bg-img">
+  <source class="bg-img" srcset="/bg.avif" type="image/avif">
+  <source class="bg-img" srcset="/bg.webp" type="image/webp">
+  <img class="bg-img" src="/bg.jpg" alt="Pittsburgh at night">
+</picture>
+
+<div class="spacer">
+</div>
+{% endblock bgimg %}
+
+
 {% block content %} {{ section.content | safe }} {% endblock content %}

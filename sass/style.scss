@@ -67,6 +67,7 @@ header {
 
 nav {
   /* margin-top: 6px; */
+  margin-top: 1em;
   height: 2rem;
   display: flex;
   flex-flow: row wrap;
@@ -75,6 +76,10 @@ nav {
 
 .tab {
   margin-left: 2rem;
+}
+
+.tab-active > a {
+  color: white;
 }
 
 .spacer {
@@ -111,7 +116,7 @@ nav {
 
 .content {
   text-align: left;
-  width: 60%;
+  width: 50%;
 }
 
 footer {
@@ -142,6 +147,12 @@ footer {
 .up {
   color: #8fdfff;
   margin: 4px;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    width: 75%;
+  }
 }
 
 @media (max-width: 800px) {

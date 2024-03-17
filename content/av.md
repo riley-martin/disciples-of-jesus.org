@@ -1,6 +1,7 @@
 +++
 template = "page.html"
 title = "Resources"
+slug = "av"
 +++
 
 ## Resources

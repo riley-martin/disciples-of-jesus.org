@@ -1,6 +1,7 @@
 +++
 template = "index.html"
 title = "About Us"
+slug = "about"
 +++
 
 ## Disciples of Jesus
