@@ -3,14 +3,12 @@
 {% block nav %} {{ tabs::tabs(active="about") }} {% endblock nav %}
 
 {% block bgimg %}
-<picture class="bg-img">
-  <source class="bg-img" srcset="/bg.avif" type="image/avif">
-  <source class="bg-img" srcset="/bg.webp" type="image/webp">
-  <img class="bg-img" src="/bg.jpg" alt="Pittsburgh at night">
+<picture class="image">
+  <source class="image" srcset="/bg.avif" type="image/avif">
+  <source class="image" srcset="/bg.webp" type="image/webp">
+  <img class="image" src="/bg.jpg" alt="Pittsburgh at night">
 </picture>
 
-<div class="spacer">
-</div>
 {% endblock bgimg %}
 
 

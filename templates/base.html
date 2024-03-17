@@ -20,17 +20,19 @@
     <source class="bg-img" srcset="/bg.webp" type="image/webp">
     <img class="bg-img" src="/bg.jpg" alt="Pittsburgh at night">
   </picture>-->
-  <nav id="top">
-  {% block nav %}{% endblock nav %}
-  </nav>
-  {% block bgimg %}{% endblock bgimg%}
-  <main>
-    <div id="content-container" class="content-container">
-      <div id="content" class="content">
-        {% block content %}{% endblock content %}
+  <div class="not-footer">
+    <nav id="top">
+    {% block nav %}{% endblock nav %}
+    </nav>
+    {% block bgimg %}{% endblock bgimg%}
+    <main>
+      <div id="content-container" class="content-container">
+        <div id="content" class="content">
+          {% block content %}{% endblock content %}
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
+  </div>
   <footer>
     <div class="verse">
       <p>
