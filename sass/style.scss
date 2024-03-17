@@ -34,7 +34,11 @@ h6 {
   // width: 100%;
   // height: 100%;
   // z-index: -10;
-  width: 100%;
+  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1em;
   // height: 75vh;
 }
 
@@ -163,13 +167,13 @@ footer {
 
 @media (max-width: 1000px) {
   .content {
-    width: 75%;
+    width: 75vw;
   }
 }
 
 @media (max-width: 800px) {
-  .content {
-    width: 80%;
+  .content, .image {
+    width: 80vw;
   }
 }
 
@@ -182,7 +186,10 @@ footer {
     height: 4rem;
   }
 
-  .content {
-    width: 100%;
+  .content, .image {
+    width: 100vw;
+  }
+  .image {
+    border-radius: 0;
   }
 }
