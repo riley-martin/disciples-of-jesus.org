@@ -4,7 +4,7 @@ title = "About Us"
 slug = "about"
 +++
 
-## Disciples of Jesus
+# Disciples of Jesus
 **A “City on a Hill” in Brighton Heights, Pittsburgh, PA**
 
 
