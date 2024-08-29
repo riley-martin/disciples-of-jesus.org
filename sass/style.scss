@@ -33,6 +33,11 @@ a {
   color: hsl(223, 61%, 38%);
 }
 
+a:hover,
+a:active {
+  color: hsl(223, 61%, 20%);
+}
+
 .image {
   margin-top: 2em;
   width: 50vw;
@@ -130,12 +135,17 @@ footer {
   .image {
     width: 80vw;
   }
+
+  nav {
+    flex-flow: column wrap;
+  }
 }
 
 @media (max-width: 500px) {
 
   nav {
     height: 4rem;
+    flex-flow: column wrap;
   }
 
   .content,
